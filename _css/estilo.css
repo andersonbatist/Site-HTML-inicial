@@ -15,23 +15,21 @@ p {
 
 figure.foto-com-legenda {
     position: relative;
-    border: 8px solid white;
+    border: 1px solid white;
+    border-left: 1px;
     box-shadow: 1px 1px 4px black;
 }
 
-figure.foto-com-legenda img{
-    width: 100%;
-    height: 100%;
-}
+
 
 figure.foto-com-legenda figcaption{
     opacity: 0;
-    position: absolute;
+    position:absolute;
     top: 0px;
     background-color: rgba(0,0,0,0.4);
     color: white;
     width: 100%;
-    height: 100%;
+    height: 0%;
     box-sizing: border-box;
 }
 
@@ -42,8 +40,26 @@ figure.foto-com-legenda:hover figcaption {
 
 /* Formatação do Menu */
 
+nav#menu {
+    display: block;
+}
+
 nav#menu ul {
     list-style: none;
     text-transform: uppercase;
+    position: absolute;
+    top: -15px;
+    right: 0px;
+}
 
+nav#menu li {
+    display: inline-block;
+    background-color: darkgray;
+    padding: 11px;
+    margin: 0.1px;
+    
+}
+
+nav#menu h1 {
+    display: none;
 }
