@@ -6,20 +6,25 @@ body {
 }
 p {
 	text-align: justify;
-	text-indent: 50px;
+	text-indent: 20px;
 }
 
 div#interface {
-    width: 850px;
+    width: 1600px;
     background-color: #ffffff;
     margin: -20px auto 0px auto;
 }
 
 
-head#cabecalho img#icone {
+header#topo img#icone {
     position: absolute;
-    left: 800px;
-    top: 800px;
+    right: 10px;
+    top: 50px;
+}
+
+header#topo {
+    height: 200px;
+    border-bottom: 1px double rgb(64, 64, 64);
 }
 
 /* Formatação de imagens com legendas*/
