@@ -29,7 +29,7 @@ header#topo img#icone {
 
 header#topo {
     height: 200px;
-    border-bottom: 1px double rgb(64, 64, 64);
+    border-bottom: 1px solid rgb(64, 64, 64);
     background: url("/home/sr_anderson/Documentos/projetoshtml/projeto-glass-html5/_imagens/glass-logo-peq.jpg") no-repeat 0px 100px;
     background-size: 200pt;
 }
@@ -123,4 +123,28 @@ nav#menu a {
 
 nav#menu a:hover {
     color: white;
+}
+
+section#corpo {
+    display: block;
+    width: 1000px;
+    float: left;
+    border-right: 1px solid rgb(64, 64, 64);
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+aside#lateral {
+    display: block;
+    width: 400px;
+    float: right
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid rgb(64, 64, 64);
+}
+
+footer#rodape p {
+    text-align: center;
 }
