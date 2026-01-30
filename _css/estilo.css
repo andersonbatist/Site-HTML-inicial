@@ -134,6 +134,22 @@ section#corpo {
     padding-bottom: 10px;
 }
 
+table#tabela {
+    border: 1px solid black;
+    border-spacing: 0px;
+}
+
+table#tabela td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table#tabela td#nome {
+    text-align: right;
+}
+
+
+
 aside#lateral {
     display: block;
     width: 400px;
